@@ -8,21 +8,6 @@ const port = 3000;
 app.use(cors())
 app.use(express.json());
 
-// app.use(cors({
-//     origin: 'http://127.0.0.1:5500',  // or wherever your frontend is
-//     credentials: true
-// }));
-
-// app.use(session({
-//     secret: 'y8G@!2kxP1tA9zM$3fW4&bE7uCqRzD0L', // keep this strong and hidden in real projects
-//     resave: false,
-//     saveUninitialized: false,
-//     cookie: {
-//         httpOnly:true,
-//         secure: false,           // false for HTTP, true for HTTPS
-//         sameSite: 'lax'          
-//     }
-// }));
 
 //login-sigup use
 
