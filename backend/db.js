@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'sanatSQL@2025',
+    password: '##',
     database: 'money_manager',
     port:3306
 });
